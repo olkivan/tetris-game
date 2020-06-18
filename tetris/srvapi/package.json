@@ -1,0 +1,16 @@
+{
+  "name": "tetris-server-app",
+  "version": "1.0.0",
+  "description": "Tetris Server App provides an API for highscore load/save",
+  "main": "ttrsrv.js",
+  "scripts": {
+    "start": "node ttrsrv.js"
+  },
+  "author": "Ivan Olkhovsky <olkivan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2",
+    "cors": "2.8.5",
+    "body-parser": "1.18.2"
+  }
+}

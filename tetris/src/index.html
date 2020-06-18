@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple tetris app</title>
+  </head>
+  <body>
+    <div class="gameArea">
+        <div class="darkpanel make-invisible"></div>
+        <div class="gameTitle">
+          <span class="titleValue">TET</span><span class="titleValue decoReversed">R</span><span class="titleValue">IS</span>
+        </div>
+        <div class="gameField">
+            <div class="gameOverPositionContainer make-invisible">
+              <div class="gameOverContainer"><div class="gameOverLabel">GAME&nbsp;&nbsp;OVER</div></div>
+            </div>
+            <div class="pausePositionContainer make-invisible">
+              <div class="pauseNotificationContainer">
+                <div class="pauseLabel">PAUSED</div>
+              </div>
+            </div>
+            <!-- <div><div class="shard"></div></div> -->
+        </div>
+
+        <div class="highScoreDlgPosition make-invisible">
+          <div class="highScoreDlg">
+            <div class="hsdlgTitle"></div>
+            <div class="hsdlgInputTitle">Please enter your name:</div>
+            <div class="hsdlgInputLine"><input type="text" maxlength="14" size="14" class="hsdlgNameInput"></div>
+            <div class="hsdlgSubmitButtonLine">
+              <input type="button" class="hsdlgBtn hsdlgSubmitBtn" value="Submit">
+              <input type="button" class="hsdlgBtn hsdlgCancelBtn" value="Don't submit">
+            </div>
+          </div>
+        </div>
+
+        <div class="rightPanel">
+
+          <div class="nextFigurePosition"><div class="nextFigure"></div></div>
+
+          <div class="infoPane">
+            <div class="infoRow score-row">
+              <span class="infoTitle score-title">SCORE</span><span class="infoValue score-value">0</span>
+            </div>
+            <div class="infoRow lines-row">
+              <span class="infoTitle lines-title">LINES</span><span class="infoValue lines-value">0</span>
+            </div>
+            <div class="infoRow level-row">
+              <span class="infoTitle level-title">LEVEL</span><span class="infoValue level-value">1</span>
+            </div>
+          </div>
+
+          <div class="menuPane">
+            <div class="menuItem noselect" id="newGameBtn">Start new game</div>
+            <div class="menuItem noselect" id="pauseBtn">Pause</div>
+          </div>
+
+          <div class="highScorePane">
+            <div class="highScoreTitle">TOP 5</div>
+            <div>
+              <span class="highscore-nickname-header">Name</span><span class="highscore-score-header">Score</span><span class="highscore-level-header">Level</span>
+            </div>
+            <div class="highScoreEntry">
+              <span class="highscore-nickname">unknown player</span><span class="highscore-score">0</span><span class="highscore-level">0</span>
+            </div>
+            <div class="highScoreEntry">
+              <span class="highscore-nickname">unknown player</span><span class="highscore-score">0</span><span class="highscore-level">0</span>
+            </div>
+            <div class="highScoreEntry">
+             <span class="highscore-nickname">unknown player</span><span class="highscore-score">0</span><span class="highscore-level">0</span>
+             </div>
+            <div class="highScoreEntry">
+              <span class="highscore-nickname">unknown player</span><span class="highscore-score">0</span><span class="highscore-level">0</span>
+            </div>
+            <div class="highScoreEntry">
+              <span class="highscore-nickname">unknown player</span><span class="highscore-score">0</span><span class="highscore-level">0</span>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+  </body>
+</html>

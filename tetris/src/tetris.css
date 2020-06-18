@@ -1,0 +1,411 @@
+.pausePositionContainer {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  overflow: visible;
+}
+
+.pauseNotificationContainer {
+  position: relative;
+  width: 0px;
+  height: 40px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 24pt;
+  font-weight: bold;
+  filter: drop-shadow(0px 0px 2px black);
+}
+
+.gameOverPositionContainer {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  overflow: visible;
+  width: 220px;
+}
+
+.gameOverContainer {
+  position: relative;
+  background-color: aquamarine;
+  width: 0px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 4px solid red;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+}
+
+.gameOverLabel {
+  position: relative;
+  font-weight: 900;
+  font-size: 20pt;
+  line-height: 30pt;
+  white-space: nowrap;
+}
+
+
+
+.scoreInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.scoreValue {
+  color: red;
+  margin-left: 1em;
+}
+
+
+.linesInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.totalLinesValue {
+  color: red;
+  margin-left: 1em;
+}
+
+
+.levelInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.levelValue {
+  color: red;
+  margin-left: 1em;
+}
+
+.gameField {
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.gameArea {
+  background-color: #406080;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gameTitle {
+  font-size: 30pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 12pt;
+  background-color: coral;
+  font-weight: bold;
+}
+
+.titleValue {
+  color: black;
+  filter: drop-shadow(0px 0px 5px white);
+}
+
+.decoReversed {
+  display: inline-block;
+  transform: scale(-1, 1);
+}
+
+.rightPanel {
+  float: left;
+  width: 240px;
+}
+
+.nextFigurePosition {
+  float: left;
+  margin-left: 50%;
+  margin-top: 5pt;
+}
+
+.nextFigure {
+  float: left;
+  background-color: aquamarine;
+  margin-left: -50%;
+}
+
+.infoPane {
+  float: right;
+  width: 240px;
+}
+
+
+.infoTitle {
+  color: white;
+  position: relative;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  filter: drop-shadow(0px 0px 2px black);
+  line-height: 50px;
+  padding-left: 8px;
+}
+
+.infoValue {
+  color: #ffffff;
+  filter: drop-shadow(0px 0px 2px black);
+  position: relative;
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  padding-right: 8px;
+}
+
+.score-value {
+  color: gold;
+}
+
+.infoRow {
+  clear: both;
+  overflow: hidden; /* that enables background color for rows */
+}
+
+.score-row {
+  background-image: linear-gradient(#406080, #254565);
+}
+
+.lines-row {
+  background-image: linear-gradient(#406080, #254565);
+}
+
+.level-row {
+  background-image: linear-gradient(#406080, #254565);
+}
+
+.bgCell {
+  float: left;
+  box-sizing: border-box;
+}
+
+.menuPane {
+  float: left;
+  width: 240px;
+  margin-top: 10pt;
+}
+.menuItem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid darkturquoise;
+  margin: 10pt;
+  font-size: 14pt;
+  line-height: 24pt;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  cursor: pointer;
+  background-color: 6090c0;
+}
+
+.menuItem:hover {
+  background-color: lightcoral;
+}
+
+
+.highScorePane {
+  position: relative;
+  float: left;
+  width: 240px;
+  padding-top: 12pt;
+}
+
+.highScoreEntry {
+  clear: both;
+}
+
+.highscore-nickname {
+  float: left;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  padding-left: 4pt;
+  color: white;
+  line-height: 18pt;
+  width: 50%;
+}
+
+.highscore-score {
+  float: right;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8pt;
+  padding-right: 4pt;
+  color: greenyellow;
+  line-height: 18pt;
+  text-align: right;
+  width: 20%;
+  padding-right: 8pt;
+}
+
+.highscore-level {
+  float: right;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8pt;
+  color: greenyellow;
+  line-height: 18pt;
+  text-align: center;
+  width: 20%;
+}
+
+.highscore-nickname-header {
+  float: left;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  padding-left: 4pt;
+  color: cyan;
+  line-height: 18pt;
+  width: auto;
+}
+
+
+.highscore-score-header {
+  float: right;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  padding-left: 4pt;
+  color: cyan;
+  line-height: 18pt;
+  width: 20%;
+}
+
+.highscore-level-header {
+  float: right;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+  padding-right: 8pt;
+  color: cyan;
+  line-height: 18pt;
+  width: auto;
+}
+
+.highScoreTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  padding-bottom: 8pt;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.highScoreDlgPosition {
+  position: absolute;
+  height: 0px;
+  overflow: visible;
+  margin-left: 50%;
+}
+
+.make-invisible {
+  display: none;
+}
+
+.highScoreDlg {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  margin-top: 30%;
+  margin-left: -50%;
+  background: skyblue;
+  padding-bottom: 10pt;
+  box-shadow: 2px 2px 5px;
+  z-index: 2;
+}
+
+.hsdlgTitle {
+  background: #406080;
+  line-height: 22pt;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  color: blanchedalmond;
+}
+.hsdlgInputTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  line-height: 22pt;
+  margin-top: 10pt;
+  text-align: center;
+}
+
+.hsdlgInputLine {
+  line-height: 32pt;
+  text-align: center;
+}
+
+.hsdlgNameInput {
+  font-size: 14pt;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border: 1px solid black;
+  width: calc(12pt * 11);
+  height: 24pt;
+  padding: 5px;
+}
+
+.hsdlgNameInput:focus {
+  border: 2px solid coral;
+}
+
+.hsdlgSubmitButtonLine {
+  line-height: 32pt;
+  text-align: center;
+}
+
+.hsdlgBtn {
+  margin-top: 12pt;
+  line-height: 22pt;
+  font-size: 14pt;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.hsdlgBtn:hover {
+  background-color: coral;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.hsdlgBtn:focus {
+  border: 2px solid coral;
+  margin-top: calc(12pt - 1px);
+}
+
+.hsdlgSubmitBtn {
+  margin-right: 10px;
+}
+
+.hsdlgCancelBtn {
+  margin-left: 10px;
+}
+
+.darkpanel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.shard {
+  position: absolute;
+}
+
