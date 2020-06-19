@@ -1,6 +1,3 @@
-# ultimathule
-Learning JS and stuff
-
 ## Tetris Game written in vanilla JavaScript
 
 ### Build
