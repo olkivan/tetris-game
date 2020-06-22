@@ -10,7 +10,7 @@ Ensure docker is preinstalled on your system. Otherwise go to https://docs.docke
 
 `cd tetris`
 
-- Buld a docker image image (for example with the name
+- Buld a docker image (for example with the name
 *tetris-content-nginx*). Note: The last dot is important!
 Also you may need to lift the privelege (prefix each command with `sudo`)
 
