@@ -1,5 +1,9 @@
 ## Tetris Game written in vanilla JavaScript
 
+## Live Demo
+
+http://95.214.9.220:9001/tetris
+
 ### Build
 
 **Prerequisites**
