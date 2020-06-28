@@ -1,6 +1,6 @@
 ## Tetris Game written in vanilla JavaScript
 
-## Live Demo
+## Live Demo (use arrow keys and [space] to control)
 
 http://95.214.9.220:9001/tetris
 
