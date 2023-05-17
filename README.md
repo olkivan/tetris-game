@@ -2,7 +2,7 @@
 
 ## Live Demo (use arrow keys and [space] to control)
 
-http://45.89.67.247:9001/tetris
+https://olkivan.ru/tetris
 
 ### Build
 
